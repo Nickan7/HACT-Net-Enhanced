@@ -1,0 +1,16 @@
+# Upload server
+# scp /mnt/d/cbml/dissertation/hact-net-main/core/config/bracs_cggnn_7_classes_gin.yml kanakis@139.91.190.244:/media/hdd/kanakis/hactnet/core/config/
+
+
+gnn_params:
+  layer_type: "gin_layer"
+  output_dim: 64
+  num_layers: 3
+  readout_op: "none"
+  readout_type: "mean"
+  dropout: 0.
+  graph_norm: True
+  batch_norm: True
+classification_params:
+  num_layers: 2
+  hidden_dim: 128
