@@ -141,5 +141,3 @@ This project builds upon, refactors, and extends the open-source **HACT-Net** fr
 * **Original Repository:** [histocartography/hact-net](https://github.com/histocartography/hact-net)
 
 ```
-
-```
